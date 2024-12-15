@@ -25,11 +25,12 @@
         "pattern": "^•• \\d{4}$"
       },
       "balance": {
-        "type": "sr",
+        "type": "integer",
         "default": 0
       },
       "currency": {
-        "enum": ["RUB", "USD"] }
+        "type": "string",
+        "enum": ["RUB", "USD"]
       }
     }
   }
